@@ -25,7 +25,5 @@ Route::get('/home', function () {
     return view('client.layouts.app');
 });
 
-Route::get('/', [HomeController::class, 'index'])->name('client.home');
-
 Auth::routes();
 
