@@ -157,7 +157,7 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-              @yield('content')
+                @yield('content')
             </div>
             <div class="row mt-4">
                 <div class="col-lg-4 col-md-6 mt-4 mb-4">
